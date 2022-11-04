@@ -3,4 +3,6 @@
 if($_SERVER['REQUEST_URI'] === '/users') {
     echo 'Hello';
 } else {
-echo 'byu';}
+echo 'byu';
+phpinfo();
+}
